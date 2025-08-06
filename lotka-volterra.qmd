@@ -27,7 +27,7 @@ library(kableExtra)
 
 ## I. The Lotka-Volterra equations
 
-As described in lecture, the Lotka-Volterra models have been used to describe predator-prey populations.
+As described in lecture, the Lotka-Volterra models have been used to describe predator-prey populations. One tiny change!
 
 ### i. Prey equation:
 
