@@ -2,7 +2,7 @@
 title: "Lotka-Volterra Example"
 subtitle: "Numerical approximations"
 description: "Day 3, morning interactive session"
-date: 2024-08-07
+date: 2025-08-06
 format: html
 toc: true
 editor_options: 
@@ -71,7 +71,7 @@ To find an approximate solution in R, we will need four things:
 time <- seq(from = 0, to = 50, by = 0.05)
 
 # Set some parameter values (these can change - keep it in mind) ----
-parameters <- c(r = .75, alpha = 0.8, beta = 0.5, q = 1)
+parameters <- c(r = .75, alpha = 0.75, beta = 0.55, q = 1)
 
 # Set the initial condition (prey and predator populations at t = 0) ----
 # Recall: V = prey, P = predator
